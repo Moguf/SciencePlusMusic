@@ -14,6 +14,7 @@ Requirements
 * Python  >  3.5.1
 * Scipy   >  0.18.0
 * Numpy   >  1.11.1
+* Matplotlib > 1.5.2
 
 Set Up
 ------
@@ -35,6 +36,9 @@ activate virtualenv
    source venv/bin/activate
    # Removing virtual environment
    # (venv) deactivate
+
+   # for matplotlib
+   sh venv/bin/frameworkpython spm.py
    
 build & install
 ---------------

@@ -98,3 +98,6 @@ venv/*
 
 # for me.
 test.py
+
+#for matpoltlib
+!frameworkpython
