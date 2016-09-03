@@ -97,7 +97,9 @@ ENV/
 venv/*
 
 # for me.
-test.py
+# test.py
 
 #for matpoltlib
 !frameworkpython
+
+*.mp4
