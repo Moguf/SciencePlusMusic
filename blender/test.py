@@ -1,4 +1,5 @@
 import bpy
+import numpy
 
 for item in bpy.context.scene.objects:
     if item.type == 'MESH':
@@ -10,10 +11,7 @@ for item in bpy.data.meshes:
     bpy.data.meshes.remove(item)
 for item in bpy.data.materials:
     bpy.data.materials.remove(item)
-
-import bpy
-import numpy
-
+    
 dt = 0.02
 p = 10
 r = 28
@@ -40,6 +38,7 @@ bpy.ops.object.camera_add(
     location=(70, -40, 50),
     rotation=(1.1, 0, 0.8)
 )
+
 Lorenz(xdata,ydata,zdata)
 
 number_of_frame = 0
