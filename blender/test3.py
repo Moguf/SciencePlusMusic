@@ -16,9 +16,9 @@ bpy.data.lamps['Lamp'].type = 'SUN'
 bpy.context.scene.render.resolution_x = 1920
 bpy.context.scene.render.resolution_y = 1080
 bpy.context.scene.render.resolution_percentage = 100
-bpy.context.scene.render.image_settings.file_format = 'FFMPEG'
+bpy.context.scene.render.image_settings.file_format = 'AVI_JPEG'
 
-bpy.data.scenes['Scene'].render.filepath = 'test3.mp4'
+bpy.data.scenes['Scene'].render.filepath = 'test3.avi'
 bpy.context.scene.frame_start = 0
 bpy.context.scene.frame_end = 20
 bpy.ops.render.render(animation=True)
